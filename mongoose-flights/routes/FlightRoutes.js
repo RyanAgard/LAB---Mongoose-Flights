@@ -15,19 +15,19 @@ router.get('/', FlightController.index)
 
 router.get('/new', FlightController.new)
 
-router.delete('/clear', FlightController.clear)
+// router.delete('/clear', FlightController.clear)
 
-router.delete('/:id', FlightController.delete)
+// router.delete('/:id', FlightController.delete)
 
-router.put('/:id', FlightController.update)
+// router.put('/:id', FlightController.update)
 
-router.post('/seed', FlightController.seed)
+// router.post('/seed', FlightController.seed)
 
 router.post('/', FlightController.create)
 
-router.get('/:id/edit', FlightController.edit)
+// router.get('/:id/edit', FlightController.edit)
 
-router.get('/:id', FlightController.show)
+// router.get('/:id', FlightController.show)
 
 
 module.exports = router;
