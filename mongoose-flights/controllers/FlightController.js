@@ -22,10 +22,10 @@ module.exports.new = async (req, res) => {
 //     res.redirect('/flights')
 // }
 
-// module.exports.update = async (req, res) => {
-//     await Flights.findByIdAndUpdate(req.params.id, req.body)
-//     res.redirect(`/flights/${req.params.id}`)
-// }
+module.exports.update = async (req, res) => {
+    await Flights.findByIdAndUpdate(req.params.id, req.body)
+    res.redirect(`/flights/${req.params.id}`)
+}
 
 module.exports.create = async (req, res) => {
     console.log(req.body)

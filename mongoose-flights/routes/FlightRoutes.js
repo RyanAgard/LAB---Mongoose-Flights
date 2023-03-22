@@ -19,7 +19,7 @@ router.get('/new', FlightController.new)
 
 // router.delete('/:id', FlightController.delete)
 
-// router.put('/:id', FlightController.update)
+router.put('/:id', FlightController.update)
 
 // router.post('/seed', FlightController.seed)
 
