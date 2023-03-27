@@ -7,7 +7,7 @@ function New(props) {
     <DefaultLayout>
       <div>
         <h1>New flights Log</h1>
-        <form action="/flights" method="POST">
+        <form action="/flight" method="POST">
           <label htmlFor="air">Airline:</label>
           <br />
           <input type="text" id="air" name="airline" />
@@ -40,4 +40,4 @@ function New(props) {
   )
 }
 
-export default New;
+export default New; 
