@@ -76,7 +76,7 @@ function Show(props) {
         <details>
           <summary style={{ opacity: '.6' }}>Destinations:</summary>
           <form
-            action={`/flights/${props.flight._id}/destinations`}
+            action={`/flight/${props.flight._id}/destinations`}
             method="POST"
 
           >
@@ -96,10 +96,10 @@ function Show(props) {
                   {/* <option selected>Select a Destination</option> */}
 
                   {/* <option value="AUS">AUS</option>
-                <option value="DAL">DAL</option>
-                <option value="LAX">LAX</option>
-                <option value="SAN">SAN</option>
-                <option value="SEA">SEA</option> */}
+                 <option value="DAL">DAL</option>
+                 <option value="LAX">LAX</option>
+                 <option value="SAN">SAN</option>
+                 <option value="SEA">SEA</option> */}
                   {availableAirports.map((airport) => (
                     <option value={airport}>{airport}</option>
                   ))}
