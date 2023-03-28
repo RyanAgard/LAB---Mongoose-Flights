@@ -6,7 +6,7 @@ function New(props) {
   return (
     <DefaultLayout>
       <div>
-        <h1>New flights Log</h1>
+        <h1>New Flights Log</h1>
         <form action="/flight" method="POST">
           <label htmlFor="air">Airline:</label>
           <br />

@@ -11,7 +11,8 @@ function Index(props) {
 
         <DefaultLayout>
             <div >
-                <h1>Flights Index View </h1>
+                
+                <h1>Flights View </h1>
 
                 <ul>
                     {flight.map((item, index) =>
@@ -22,7 +23,7 @@ function Index(props) {
                     }
                 </ul>
           
-                <a href='/flight/new'> Add new Flight</a>
+                {/* <a href='/flight/new'> Add new Flight</a> */}
 
             </div>
         </DefaultLayout>

@@ -32,5 +32,16 @@ router.post('/', flightsController.create)
 // Setup an "show" route for flights, attach it to router along with the controller logic
 router.get('/:id', flightsController.show)
 
+router.post('/:id/destinations', flightsController.createDestination)
+
+router.delete('/:id/destinations/:cid', flightsController.deleteDestination)
+
+router.get('/:id/destinations', flightsController.indexDestination)
+
+router.get('/:id/destinations/:cid', flightsController.showDestination)
+
+router.put('/:id/destinations/:cid', flightsController.updateDestination)
+
+
 
 module.exports = router;
